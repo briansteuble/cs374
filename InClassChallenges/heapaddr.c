@@ -21,3 +21,6 @@ int main() {
     
     return 0;
 }
+
+// Question: What do you observe about the address of the mmap()d region? Is it increasing or decreasing from call to call? Why?
+// The addresses are increasing because the heap grows upward.

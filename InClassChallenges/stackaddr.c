@@ -14,3 +14,6 @@ int main() {
     loop(&start);
     return 0;
 }
+
+//Question: What do you observe about the address of the variable on the stack? Is it increasing or decreasing from call to call? Why?
+// The address is decreasing because the stack grows downward.
